@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+/*-----recipe-section-----*/
+.recipe-heading {
+  width: 33%;
+  text-align: center;
+  margin-left: 33%;
+}
+.box-description {
+  display: flex;
+}
+.box-width {
+  width: 23.3%;
+  margin-right: -9px;
+  margin-bottom: 90px;
+  padding: 20px;
+}
+.box-width img {
+  width: 100%;
+  border-radius: 35px;
+}
+
+.box-width img:last-child {
+  margin-right: 0;
+}
+.box {
+  box-shadow: 10px 10px 40px rgb(204, 202, 202);
+  border-radius: 35px;
+  margin-left: 5%;
+}
+.one-box {
+  display: flex;
+  text-align: center;
+  width: 88%;
+  padding-bottom: 27px;
+}
+.single-description {
+  padding-left: 195px;
+}
+
+h1 {
+  color: #18191f;
+  font-weight: 700;
+  font-size: 50px;
+}
+h5 {
+  color: #18191f;
+}
+h2 {
+  color: #707070;
+  font-size: 35px;
+}
+p {
+  font-size: 20px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+/*footer-section*/
+.footer-bcg {
+  margin-top: 65px;
+  background-color: #0b0d17;
+}
+.footer-description {
+  text-align: center;
+  padding: 20px 0px 65px 0px;
+}
+h3.exceptional-h3 {
+  color: #fff;
+}
+.text-color {
+  color: #f5d7ce;
+}
+.second-color {
+  color: #595959;
+}
+.footer-p {
+  color: #fff;
+}
