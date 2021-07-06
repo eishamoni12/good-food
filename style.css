@@ -1,5 +1,79 @@
-body {
+* {
   margin: 0;
+}
+/*-----menu--------*/
+
+.menu-item {
+  display: flex;
+  background-color: #eb6076;
+  padding: 40px 116px;
+}
+ul.nav-list {
+  padding-top: 30px;
+  display: flex;
+}
+
+ul.nav-list li {
+  list-style: none;
+}
+
+ul.nav-list li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 216px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fdeaec;
+}
+.logo {
+  width: 9%;
+  font-weight: 700;
+  font-size: 35px;
+}
+/*-------profile------*/
+h1.profile-heading {
+  font-size: 55px;
+  color: #575757;
+}
+.p-color {
+  padding: 30px 0px;
+  color: #575757;
+}
+/*-----about me-----*/
+.about-me {
+  padding-top: 70px;
+  padding-left: 15%;
+  background-image: url(images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+}
+.one-side {
+  padding-left: 8%;
+  width: 50%;
+}
+.oneside-varient {
+  padding-top: 10%;
+}
+.one-side img {
+  width: 85%;
+}
+.profile-padding.one-side {
+  padding-top: 5%;
+}
+.common-design {
+  display: flex;
+  margin-bottom: 60px;
+}
+a.gradient-button {
+  text-decoration: none;
+  background-image: linear-gradient(#eb6076, #e92b42);
+  border-radius: 25px;
+  padding: 13px 35px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 19px;
+}
+.button-margin {
+  margin-top: 58px;
 }
 /*-----recipe-section-----*/
 .recipe-heading {
@@ -8,6 +82,7 @@ body {
   margin-left: 33%;
 }
 .box-description {
+  margin-top: 30px;
   display: flex;
 }
 .box-width {
@@ -18,22 +93,25 @@ body {
 }
 .box-width img {
   width: 100%;
-  border-radius: 35px;
+  border-radius: 15px;
 }
 
 .box-width img:last-child {
   margin-right: 0;
 }
-.box {
-  box-shadow: 10px 10px 40px rgb(204, 202, 202);
-  border-radius: 35px;
-  margin-left: 5%;
-}
 .one-box {
   display: flex;
   text-align: center;
   width: 88%;
-  padding-bottom: 27px;
+  padding: 70px 0px;
+}
+.box {
+  box-shadow: 10px 10px 40px rgb(204 202 202);
+  border-radius: 21px;
+  margin-left: 5%;
+}
+.box h3 {
+  padding: 30px 0px 20px 0px;
 }
 .single-description {
   padding-left: 195px;
@@ -65,13 +143,14 @@ h3 {
 }
 .footer-description {
   text-align: center;
-  padding: 20px 0px 65px 0px;
+  padding: 0px 0px 110px 0px;
 }
 h3.exceptional-h3 {
   color: #fff;
+  padding: 43px;
 }
 .text-color {
-  color: #f5d7ce;
+  color: #e92b42;
 }
 .second-color {
   color: #595959;
